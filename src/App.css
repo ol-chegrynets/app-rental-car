@@ -1,4 +1,4 @@
-@keyframes logo-spin {
+/* @keyframes logo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -11,4 +11,10 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
+} */
+.container {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 84px 120px 124px 120px;
 }

@@ -1,1 +1,26 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 120px;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.link {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
 
+  line-height: 1.25;
+  text-align: center;
+  color: var(--main);
+}
+.active {
+  color: var(--button-hover);
+}
