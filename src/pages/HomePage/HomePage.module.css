@@ -1,3 +1,7 @@
 input:empty {
   border: 1px solid red;
 }
+.homepage {
+  background-image: url('/src/assets/images/home.png');
+  background-size: cover;
+}
