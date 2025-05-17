@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './AppBar.module.css';
 import { NavLink } from 'react-router-dom';
-
+import Logo from '../Logo/Logo.jsx';
 
 const AppBar = () => {
   return (
