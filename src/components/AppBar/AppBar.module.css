@@ -22,6 +22,6 @@ header {
   color: var(--main);
 }
 .active {
+  composes: link;
   color: var(--button-hover);
 }
-

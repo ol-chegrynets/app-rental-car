@@ -1,7 +1,65 @@
-input:empty {
+/* input:empty {
   border: 1px solid red;
-}
-.homepage {
+} */
+.homePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   background-image: url('/src/assets/images/home.png');
   background-size: cover;
+  height: 50vh;
+  padding-bottom: 60px;
+}
+
+.homeWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.homeText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.title {
+  font-weight: 700;
+  font-size: 60px;
+
+  /* line-height: 72px; */
+  line-height: 1.2;
+  text-align: center;
+  color: var(--white);
+}
+.text {
+  font-weight: 600;
+  font-size: 24px;
+
+  /* line-height: 32px; */
+  line-height: 1.33333;
+  text-align: center;
+  color: var(--white);
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  padding: 12px 99px;
+  width: 276px;
+  height: 44px;
+  background: var(--button);
+  font-weight: 600;
+  font-size: 16px;
+
+  /* line-height: 20px; */
+  line-height: 1.25;
+  color: var(--white);
 }
